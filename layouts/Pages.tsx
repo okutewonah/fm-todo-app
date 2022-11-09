@@ -15,3 +15,5 @@ const Page: React.FC<Props> = ({ children }) => {
     </div>
   )
 }
+
+export default Page
