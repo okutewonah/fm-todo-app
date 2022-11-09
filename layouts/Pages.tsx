@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Head";
 
 interface Props {
@@ -9,6 +10,8 @@ const Page: React.FC<Props> = ({ children }) => {
   return (
     <div id="page">
       <Header />
+
+      <Footer />
     </div>
   )
 }
