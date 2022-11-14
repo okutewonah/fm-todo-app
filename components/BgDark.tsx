@@ -5,7 +5,7 @@ interface Props {}
 const BgDark: React.FC<Props> = () => {
   return (
     <div className="bg-dark">
-      <img src="public/assets/images/bg-desktop-dark.jpg" alt="background-dark" />
+      <img src="/assets/images/bg-desktop-dark.jpg" alt="background-dark" />
     </div>
   )
 }
